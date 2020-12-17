@@ -1,0 +1,246 @@
+/* --------- */
+/* VARIABLES */
+/* --------- */
+/* ---- */
+/* BODY */
+/* ---- */
+/*
+h1 a:hover, 
+h2 a:hover, 
+h3 a:hover, 
+h4 a:hover, 
+h5 a:hover, 
+h6 a:hover 	{
+	color: $accent;
+}
+*/
+a,
+a:hover {
+  color: #71be3c; }
+
+/* ---------- */
+/* TYPOGRAPHY */
+/* ---------- */
+blockquote {
+  border-color: #71be3c; }
+
+/* ------- */
+/* BUTTONS */
+/* ------- */
+.button,
+input[type="submit"] {
+  background-color: #71be3c; }
+
+/* ---- */
+/* GMAP */
+/* ---- */
+.gmap .marker:before {
+  background-image: url("./images/marker.png"); }
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .gmap .marker:before {
+    background-image: url("./images/marker@2x.png");
+    background-size: 45px 39px;
+    /* equals the size of @1x version */ } }
+/* ------- */
+/* WIDGETS */
+/* ------- */
+/* WIDGETS - GENERAL */
+.widget a:hover {
+  color: #71be3c; }
+
+/* WIDGET - RECENT POSTS CUSTOM */
+.widget_recent_posts_custom .recent_post_comments_number:hover i,
+.widget_recent_posts_custom .recent_post_like_number:hover i {
+  color: #71be3c; }
+
+/* WIDGET - TAGS */
+.widget_tags .tagcloud a:hover {
+  background-color: #71be3c; }
+
+/* WIDGET - SOCIAL */
+.widget_social .social_icon:hover {
+  background-color: #71be3c; }
+
+/* -------- */
+/* HEADER-2 */
+/* -------- */
+.header-2 .contact_info a:hover {
+  color: #71be3c; }
+
+.header-2 .flag_list .flag:hover {
+  color: #71be3c; }
+
+/* ------------ */
+/* NAVIGATION-1 */
+/* ------------ */
+.navigation-1 li:hover .top-menu-item-a {
+  color: #71be3c; }
+
+.navigation-1 .search_top_button:hover {
+  color: #71be3c; }
+
+/* ------------ */
+/* NAVIGATION-2 */
+/* ------------ */
+.navigation-2 li a:hover {
+  color: #71be3c; }
+
+/* ----------- */
+/* BLOG-POST-1 */
+/* ----------- */
+.blog-post-1 .post_meta a:hover {
+  color: #71be3c; }
+
+.blog-post-1 .post_meta_left .post_meta_left_item:hover,
+.blog-post-1 .post_meta_left .post_meta_left_item:hover i {
+  color: #71be3c; }
+
+/* POST TAGS */
+.blog-post-1 .post_tags a:hover {
+  border-color: #71be3c;
+  background-color: #71be3c; }
+
+/* SHARE THIS */
+.blog-post-1 .share_this .share_this_links a:hover {
+  color: #71be3c; }
+
+/* ------------ */
+/* PAGINATION-1 */
+/* ------------ */
+.pagination-1 .page.current,
+.pagination-1 a.page:hover {
+  background-color: #71be3c; }
+
+/* -------------------- */
+/* PORTFOLIO_TITLEBAR-2 */
+/* -------------------- */
+.portfolio_titlebar-2 .portfolio_nav a:hover {
+  background-color: #71be3c; }
+
+/* ---------------- */
+/* PORTFOLIO-POST-1 */
+/* ---------------- */
+.portfolio_like_wrapper:hover .portfolio_like_icon,
+.portfolio_like_wrapper:hover .portfolio_like_number {
+  color: #71be3c; }
+
+.portfolio_image_wrapper .portfolio_image_link:hover,
+.portfolio_image_wrapper .portfolio_image_zoom:hover {
+  background-color: rgba(113, 190, 60, 0.89); }
+
+/* ------------------ */
+/* PORTFOLIO-SINGLE-1 */
+/* ------------------ */
+.portfolio-single-1 .post_meta .like_number:hover,
+.portfolio-single-1 .post_meta a.like_number:hover {
+  color: #71be3c; }
+
+.portfolio-single-1 .post_meta .like_number:hover i {
+  color: #71be3c; }
+
+/* -------------------- */
+/* SHORTCODES + MODULES */
+/* -------------------- */
+/* TEAM MEMBER */
+.team_member .team_member_social_icons a:hover {
+  color: #71be3c; }
+
+.team_member .team_member_social_links a {
+  color: #71be3c; }
+
+/* TEXT WITH ICON BLOCK 1 */
+.text_icon_block-1:hover .tib_icon {
+  color: #71be3c;
+  border-color: #9db58c;
+  -webkit-box-shadow: 0 0 0 2px #e0f2d4;
+  -moz-box-shadow: 0 0 0 2px #e0f2d4;
+  box-shadow: 0 0 0 2px #e0f2d4; }
+
+/* TEXT WITH ICON BLOCK 3 */
+.text_icon_block-3 .tib_icon {
+  background-color: #71be3c; }
+
+/* TEXT WITH ICON EXPAND */
+.text_icon_expand_item_wrapper:hover .text_icon_expand_image_wrapper {
+  border-bottom-color: #a1d180; }
+
+.text_icon_expand_item .tie_icon {
+  border-color: #a1d180; }
+
+.text_icon_expand_item_wrapper:hover .tie_icon {
+  color: #a1d180; }
+
+.text_icon_expand_item_wrapper:hover .tie_title {
+  color: #71be3c; }
+
+/* RECENT POSTS SLIDER */
+.recent_posts_slider .rps_like_wrapper:hover .rps_like_icon,
+.recent_posts_slider .rps_like_wrapper:hover .rps_like_number {
+  color: #71be3c; }
+
+.recent_posts_slider_wrapper .rps_controls a:hover {
+  background-color: #71be3c; }
+
+.rps_image_wrapper .rps_image_link:hover,
+.rps_image_wrapper .rps_image_zoom:hover {
+  background-color: rgba(113, 190, 60, 0.89); }
+
+/* RECENT POSTS SLIDER-2 */
+.recent_posts_slider-2 .rps_like_wrapper:hover .rps_like_icon,
+.recent_posts_slider-2 .rps_like_wrapper:hover .rps_like_number {
+  color: #71be3c; }
+
+.recent_posts_slider-2_wrapper .rps_controls a:hover {
+  background-color: #71be3c; }
+
+.recent_posts_slider-2_wrapper .rps_image_wrapper .rps_image_link:hover,
+.recent_posts_slider-2_wrapper .rps_image_wrapper .rps_image_zoom:hover {
+  background-color: rgba(113, 190, 60, 0.89); }
+
+/* CLIENT LOGO SLIDER */
+.client_logo_slider_wrapper .cls_controls a:hover {
+  background-color: #71be3c; }
+
+/* PHOTO SLIDER 1 */
+.photo_slider-1 .bx-wrapper .bx-prev:hover,
+.photo_slider-1 .bx-wrapper .bx-next:hover {
+  background-color: #71be3c;
+  background-color: rgba(113, 190, 60, 0.89); }
+
+/* PROGRESS BARS 1 */
+.progress_bars-1 .pb_bar {
+  background-color: #71be3c; }
+
+/* SHORTCODES - ACCORDEON-2 - OVERWRITES STYLES FROM ACCORDEON-1 */
+.accordeon-2 .tb_accordeon_item_active .tb_accordeon_item_post_title_wrapper {
+  border-left-color: #71be3c; }
+
+/* FAQ-1 */
+.faq-1 .faq_header_item:hover .faq_header_item_title {
+  color: #71be3c; }
+
+.faq-1 .divider_button_up {
+  background-image: url("./images/divider_button_up.png"); }
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .faq-1 .divider_button_up {
+    background-image: url("./images/divider_button_up@2x.png");
+    background-size: 83px 33px;
+    /* equals the size of @1x version */ } }
+/* SITEMAP-1 */
+.sitemap-1 a {
+  color: #71be3c; }
+
+/* -------------- */
+/* FOOTER-WIDGETS */
+/* -------------- */
+/* FOOTER WIDGET - RECENT POSTS CUSTOM */
+.footer-widgets .widget_recent_posts_custom .recent_post_title:hover {
+  color: #71be3c; }
+
+.footer-widgets .widget_recent_posts_custom .recent_post_comments_number:hover,
+.footer-widgets .widget_recent_posts_custom .recent_post_like_number:hover,
+.footer-widgets .widget_recent_posts_custom .recent_post_comments_number:hover i,
+.footer-widgets .widget_recent_posts_custom .recent_post_like_number:hover i {
+  color: #71be3c; }
